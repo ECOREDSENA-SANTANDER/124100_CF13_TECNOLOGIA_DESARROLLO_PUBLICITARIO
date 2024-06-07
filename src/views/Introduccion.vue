@@ -3,9 +3,9 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-secundario
       .titulo-principal__numero
-        span
+        span.color-sistema
           i.fas.fa-info
       h1 Introducción
     

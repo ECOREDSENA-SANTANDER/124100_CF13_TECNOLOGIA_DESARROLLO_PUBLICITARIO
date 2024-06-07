@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-secundario
       .titulo-principal__numero
-        span 1
+        span.color-sistema 1
       h1 Medición de audiencias
     
     .row.mb-5.bg6

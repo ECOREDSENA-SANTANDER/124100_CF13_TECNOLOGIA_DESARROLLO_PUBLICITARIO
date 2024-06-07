@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Plan de medios',
     descripcionCurso:
       'El plan de medios es un derrotero que permite generar interacción entre una marca y su mercado objetivo. Además, tiene una estructura única para el desarrollo coherente de la campaña publicitaria, incluyendo variables como frecuencia, alcance e intensidad, indispensables para llevar el mensaje de la forma más eficiente al mercado objetivo.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -15,11 +15,11 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
@@ -144,7 +144,7 @@ export default {
           },
           {
             numero: '5.2',
-            titulo: 'Hablador(sapito)',
+            titulo: 'Hablador (sapito)',
             hash: 't_5_2',
           },
           {
@@ -162,22 +162,22 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',

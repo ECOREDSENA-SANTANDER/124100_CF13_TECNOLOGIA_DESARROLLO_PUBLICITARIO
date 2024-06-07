@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-secundario
       .titulo-principal__numero
-        span 2
+        span.color-sistema 2
       h1 Plan de medios
     
     .row.justify-content-center.mb-5.bg5
