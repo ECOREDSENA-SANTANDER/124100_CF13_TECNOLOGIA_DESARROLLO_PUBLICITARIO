@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Plan de medios',
+    descripcionCurso:
+      'El plan de medios es un derrotero que permite generar interacción entre una marca y su mercado objetivo. Además, tiene una estructura única para el desarrollo coherente de la campaña publicitaria, incluyendo variables como frecuencia, alcance e intensidad, indispensables para llevar el mensaje de la forma más eficiente al mercado objetivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,12 +40,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Medición de audiencias',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Fuentes de medición de audiencia',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +54,105 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de medios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Elementos básicos de un plan de medios',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Variables para el análisis de medio',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Variables para el análisis de campañas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Variables para el análisis de medios digitale',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Cronograma de medios',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Presupuesto',
+            hash: 't_2_6',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Merchandising - Promoción en el punto de venta',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Características',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Objetivos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos de promociones de ventas',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Técnicas de merchandising',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Merchandising y cliente',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Fases en el proceso de decisión de compra',
+            hash: 't_4_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Diseño de material P.O.P.',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Poster de precios',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Hablador(sapito)',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Adhesivo de piso (vinilo floor graphic)',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -116,18 +216,127 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Bots',
+      significado:
+        'software que genera tareas automáticas a través de internet.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Cobertura',
+      significado:
+        'Término utilizado para medir la audiencia. Puede definirse a partir del porcentaje de personas alcanzadas por el mensaje publicitario a través de un medio de comunicación o media mix a partir de un número de consumidores seleccionados. También puede expresarse en términos absolutos.',
+    },
+    {
+      termino: 'Consumidor',
+      significado:
+        'Es a quien el marketing dirige sus acciones, sea una persona u organización, con el fin de orientar o incitar a la compra y, para ello, se debe estudiar el proceso de toma de decisiones de quien va a adquirir el producto o servicio.',
+    },
+    {
+      termino: 'Cookies',
+      significado:
+        'Archivo presente en cualquier sitio de internet y que almacena datos sobre las preferencias y pautas de navegación de los usuarios que acceden a páginas web, redes sociales, blogs, y cualquier sitio virtual integrado en la red.',
+    },
+    {
+      termino: 'Displays',
+      significado:
+        '“son objetos tridimensionales que permiten captar la atención del consumidor o cliente, aplicando a objetos bidimensionales atributos tridimensionales como el volumen, peso, entre otros” (Pranapublicist, 2020).',
+    },
+    {
+      termino: 'E-mail marketing',
+      significado:
+        'consiste en utilizar el correo electrónico para llevar a cabo acciones comerciales mediante el envío masivo de información.',
+    },
+    {
+      termino: 'Expositores',
+      significado:
+        '“exhibidor en América Latina o mueble expositor, es un mueble en el que se exhiben productos destinados a la venta o material promocional como folletos, catálogos o pequeñas revistas disponibles para el cliente” (Educalingo, 2020).',
+    },
+    {
+      termino: 'Impacto publicitario',
+      significado:
+        'influencia que ejerce un mensaje publicitario sobre el público objetivo, a partir de la suma de todas las exposiciones o contactos con el anuncio que ha tenido el grupo de consumidores al que va dirigido.',
+    },
+    {
+      termino: 'Merchandising',
+      significado:
+        '“conjunto de técnicas que se aplican en el punto de venta para motivar el acto de compra de la manera más rentable, tanto para el fabricante como para el distribuidor, satisfaciendo al mismo tiempo las necesidades del consumidor. Está totalmente comprobada la influencia que tiene en la venta que el producto esté colocado en uno u otro espacio. Si el producto no está colocado en el lugar correcto decrece notablemente su ratio de ventas” (Marketing XXI, 2020).',
+    },
+    {
+      termino: 'Punto de venta',
+      significado:
+        '“por definición el Punto de Venta o POS (Point of Sale) es el punto de contacto del consumidor con las marcas o productos para su compra. Es el lugar idóneo donde las marcas pueden posicionarse, sin embargo por la relevancia que ha tomado, el PDV va más allá” (Informa BTL, 2015).',
+    },
+    {
+      termino: 'Punto de venta',
+      significado:
+        'persona que utiliza de forma habitual internet para sus rutinas diarias. Para las marcas determinados perfiles de usuario se pueden convertir en su público objetivo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'ACIM Colombia. (2020). Estudios ACIM',
+      link: 'http://www.acimcolombia.com/estudios-acim/',
+    },
+    {
+      referencia:
+        'Alard, J. y Monford, A. (2017). Plan de comunicación on y off en la práctica. ESIC Editorial',
+    },
+    {
+      referencia:
+        'Ávila, B. y Llamazares, F. (2018). Medición de audiencias. TOM micro. Utilidades en la elaboración de un plan de medios. ESIC Editorial.',
+    },
+    {
+      referencia:
+        'Ayestarán, R., Rangel, C. y Sebastián, A. (2012). Planificación estratégica y gestión de la publicidad. ESIC Editorial.',
+    },
+    {
+      referencia:
+        'Blattberg, R., y Neslin, S. (1989). Sales promotion: The long and the short of it. Marketing Letters. (1), 81-97.',
+    },
+    {
+      referencia: 'Educalingo. (2020). Expositor',
+      link: 'https://educalingo.com/es/dic-es/expositor',
+    },
+    {
+      referencia: 'Guridi, M. (2016). Distribución comercial. ITESM.',
+    },
+    {
+      referencia:
+        'Hervás, A. M., Campo, A. y Revilla, M. T. (2013). Animación del punto de venta. McGraw-Hill.',
+    },
+    {
+      referencia: 'Informa BTL. (2015). ¿Qué es el punto de venta?',
+      link:
+        'https://www.informabtl.com/que-es-el-punto-de-venta/#:~:text=Por%20definici%C3%B3n%20el%20Punto%20de,el%20PDV%20va%20m%C3%A1s%20all%C3%A1',
+    },
+    {
+      referencia:
+        'Kotler, P. (2000). Dirección de marketing. Pearson Educación.',
+    },
+    {
+      referencia:
+        'Marketing XXI. (2020). Merchandising y publicidad en el lugar de venta',
+      link: 'https://www.marketing-xxi.com/merchandising-y-plv-118.htm',
+    },
+    {
+      referencia: 'Muñiz. M. (2012). Promociones en punto de venta. Pirámide.',
+    },
+    {
+      referencia:
+        'Sánchez, G. R. (2017). Las estrategias del trade marketing en el punto de venta y su relación con la compra por impulso de los clientes buyer del Hipermercado Plaza Vea del Distrito de Tacna 2017',
+      link:
+        'http://repositorio.upt.edu.pe/bitstream/UPT/320/1/Sanchez-Yufra-Gerson-Rodrigo.pdf',
+    },
+    {
+      referencia:
+        'Santesmases, M. (2007). Marketing: conceptos y estrategias. Pirámide.',
+    },
+    {
+      referencia:
+        'Soria, M. (2015). Plan de medios de comunicación e internet. Editorial CEP.',
+    },
+    {
+      referencia:
+        'Tellis, G. (2002). Estrategias de publicidad y promoción. Pearson Educación.',
     },
   ],
   creditos: [
@@ -140,10 +349,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -153,8 +361,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +371,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +396,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
