@@ -5,7 +5,14 @@
     .titulo-principal.color-secundario
       .titulo-principal__numero
         span.color-sistema 5
-      h1 Titulo de primer nivel
+      h1 Diseño de Material P.O.P
+    
+    p.mb-4 A continuación, se presentan una serie de videos explicativos acerca de la creación de material POP (Point Of Purchase Display), con lo cual se ejemplifican algunas estrategias para potenciar las ventas de una marca.
+
+    figure.mb-4(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Diseño de material POP
 
 </template>
 
