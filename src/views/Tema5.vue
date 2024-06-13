@@ -9,10 +9,37 @@
     
     p.mb-4 A continuación, se presentan una serie de videos explicativos acerca de la creación de material POP (Point Of Purchase Display), con lo cual se ejemplifican algunas estrategias para potenciar las ventas de una marca.
 
-    figure.mb-4(data-aos="fade-down")
+
+    Separador
+    #t_5_1.titulo-segundo.color-acento-contenido
+      h2 5.1 Póster de precios 
+    
+    figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Diseño de material POP
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/d4gUnNoKQpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Póster de precios 
+
+
+    Separador
+    #t_5_2.titulo-segundo.color-acento-contenido
+      h2 5.2 Hablador (sapito)
+    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2Ch8XZKPBng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Hablador sapito
+    
+    
+    Separador
+    #t_5_3.titulo-segundo.color-acento-contenido
+      h2 5.3 Adhesivo de piso (vinilo floor graphic)
+    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gNYA1r9rssc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Adhesivo de piso 
+
+
 
 </template>
 
