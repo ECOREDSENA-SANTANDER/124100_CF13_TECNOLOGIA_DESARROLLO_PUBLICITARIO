@@ -16,8 +16,8 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/d4gUnNoKQpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Póster de precios 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Z6P6oIGaZ9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Póster De Precios  
 
 
     Separador
@@ -26,8 +26,8 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2Ch8XZKPBng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Hablador sapito
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_OAf7mz_UMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Hablador (Sapito)
     
     
     Separador
@@ -36,8 +36,8 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/gNYA1r9rssc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Adhesivo de piso 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uygUPftZmwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Adhesivo de Piso 
 
 
 

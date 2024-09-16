@@ -25,8 +25,8 @@
     p(data-aos="fade")  En el siguiente video, se exponen claramente los elementos básicos de un plan de medio y sus características principales: 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Elementos básicos de un plan de medios
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/19ctgJoJZzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Elementos básicos de un plan de medios
     
 
     Separador
