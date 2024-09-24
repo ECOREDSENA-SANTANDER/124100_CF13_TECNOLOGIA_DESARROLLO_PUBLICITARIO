@@ -13,19 +13,19 @@
       .col-lg-8.p-relative
         .bg6.p-5
           .bg1.p-4.p-lg-5.z-999
-            p Los que acuden a los establecimientos a realizar sus compras y quienes toman la decisión de comprar los artículos o no, son los clientes. Por este motivo, el marketing se preocupa por conocerlos y estudiar cómo toman sus decisiones y sin duda, aplicar las técnicas de merchandising sin un conocimiento previo de los consumidores no tendría sentido, ya que, si no se logra la adaptación a sus necesidades, gustos, deseos y preferencias, los esfuerzos no servirían de nada. #[b En función de la actuación de los clientes, se pueden distinguir dos tipos:]
+            p Los que acuden a los establecimientos a realizar sus compras y quienes toman la decisión de comprar los artículos o no, son los clientes. Por este motivo, el #[em marketing] se preocupa por conocerlos y estudiar cómo toman sus decisiones y sin duda, aplicar las técnicas de merchandising sin un conocimiento previo de los consumidores no tendría sentido, ya que, si no se logra la adaptación a sus necesidades, gustos, deseos y preferencias, los esfuerzos no servirían de nada. #[b En función de la actuación de los clientes, se pueden distinguir dos tipos:]
     
     .row.mb-4.bg4(data-aos="fade-down")
       .col-lg-6
         .p-4.p-lg-5
           img.w-105.m-auto.mb-3(src='@/assets/curso/temas/t4/icono.svg' alt='')
-          p.mb-0 #[b El cliente shopper:] es aquel que necesita una serie de argumentos para acudir a un establecimiento y no a otro. Quiere saber dónde hay que comprar y no qué comprar.
+          p.mb-0 #[b El cliente #[em shopper]:] es aquel que necesita una serie de argumentos para acudir a un establecimiento y no a otro. Quiere saber dónde hay que comprar y no qué comprar.
       .col-lg-6.bl-1
         .p-4.p-lg-5
           img.w-82.m-auto.mb-3(src='@/assets/curso/temas/t4/icono2.svg' alt='')
-          p.mb-0 #[b El cliente buyer:] es el que ya está dentro del punto de venta. Basará su decisión de compra en los precios, la calidad de los productos, las distintas ofertas, las promociones, la gama de productos y el trato recibido.
+          p.mb-0 #[b El cliente #[em buyer]:] es el que ya está dentro del punto de venta. Basará su decisión de compra en los precios, la calidad de los productos, las distintas ofertas, las promociones, la gama de productos y el trato recibido.
     
-    p(data-aos="fade") La tendencia actual es la comodidad y muchos comercios excelentes por dentro descuidan lo referente a la atracción requerida en los aspectos shopper, tales como la señalización adecuada para que el cliente sepa cómo ir al local o la numeración de las plazas de aparcamiento, por citar algunos. Por el contrario, otros comercios han reforzado los aspectos shopper, pero han descuidado la cortesía y atención al cliente.
+    p(data-aos="fade") La tendencia actual es la comodidad y muchos comercios excelentes por dentro descuidan lo referente a la atracción requerida en los aspectos #[em shopper], tales como la señalización adecuada para que el cliente sepa cómo ir al local o la numeración de las plazas de aparcamiento, por citar algunos. Por el contrario, otros comercios han reforzado los aspectos #[em shopper], pero han descuidado la cortesía y atención al cliente.
     p.mb-4(data-aos="fade") Conocer el comportamiento del consumidor exige hacerse una serie de preguntas:
 
     .row.align-items-center
@@ -117,13 +117,13 @@
             p #[b El influenciador:] es quien orienta o influye en la decisión de compra.
             p Por ejemplo: un amigo que ya tiene el juego o el vendedor, en la tienda.
           .bg3.p-4.p-lg-5(titulo="El decisor")
-            p #[b El decisor:] es la persona que decide sobre uno o todos los aspectos de la compra o resuelve comprar o no el producto 
+            p #[b El decisor:] es la persona que decide sobre uno o todos los aspectos de la compra o resuelve comprar o no el producto.
             p Por ejemplo: los padres, que deciden comprar.
           .bg3.p-4.p-lg-5(titulo="El comprador")
             p #[b El comprador:] es quien compra el producto. 
             p Por ejemplo: los padres acuden a la tienda y compran el juego para su hijo.
           .bg3.p-4.p-lg-5(titulo="El usuario o consumidor")
-            p #[b El usuario o consumidor:] es el que usa o consume el producto. . 
+            p #[b El usuario o consumidor:] es el que usa o consume el producto. 
             p Por ejemplo: el hijo que quería el juego.
     
     .linea-separador.mb-5.pt-4
@@ -191,25 +191,25 @@
           .col-5.col-md-3.col-lg-4
             img(src='@/assets/curso/temas/t4/slyder.svg' alt='')
         h5 Atención
-        p consiste en presentar el producto de una manera atractiva; es decir, llamar la atención del cliente mediante la presentación y las características del producto. Para ello, se utilizan varias herramientas: el precio, el envase, degustaciones.
+        p Consiste en presentar el producto de una manera atractiva; es decir, llamar la atención del cliente mediante la presentación y las características del producto. Para ello, se utilizan varias herramientas: el precio, el envase, degustaciones.
       .tarjeta.bg7.p-4.text-center
         .row.justify-content-center.mb-3
           .col-5.col-md-3.col-lg-4
             img(src='@/assets/curso/temas/t4/slyder2.svg' alt='')
         h5 Interés 
-        p consiste en que el cliente coja un producto y no otro. Para ello, se trata de llamar su atención: que se acerque al lineal, mire el producto, lo coja y, si quiere, observe sus propiedades. En los establecimientos de libre servicio es fundamental que sea el propio producto el que despierte el interés del cliente porque no hay vendedores que puedan mostrártelo.
+        p Consiste en que el cliente coja un producto y no otro. Para ello, se trata de llamar su atención: que se acerque al lineal, mire el producto, lo coja y, si quiere, observe sus propiedades. En los establecimientos de libre servicio es fundamental que sea el propio producto el que despierte el interés del cliente porque no hay vendedores que puedan mostrártelo.
       .tarjeta.bg7.p-4.text-center
         .row.justify-content-center.mb-3
           .col-8.col-md-3.col-lg-4
             img(src='@/assets/curso/temas/t4/slyder3.svg' alt='')
         h5 Deseo
-        p consiste en despertar expectativas y deseo. Así, una vez que el cliente cuenta con información sobre el producto, obtenida gracias al propio producto o bien al asesoramiento del vendedor, este decida que desea comprarlo.
+        p Consiste en despertar expectativas y deseo. Así, una vez que el cliente cuenta con información sobre el producto, obtenida gracias al propio producto o bien al asesoramiento del vendedor, este decida que desea comprarlo.
       .tarjeta.bg7.p-4.text-center
         .row.justify-content-center.mb-3
           .col-5.col-md-3.col-lg-4
             img(src='@/assets/curso/temas/t4/slyder4.svg' alt='')
         h5 Acción
-        p consiste en actuar; es decir, proceder a la compra del producto, una vez que se ha tomado la decisión.
+        p Consiste en actuar; es decir, proceder a la compra del producto, una vez que se ha tomado la decisión.
       
 
 </template>

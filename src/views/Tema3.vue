@@ -63,8 +63,8 @@
       .col-lg-7(data-aos="fade-right")
         #t_3_2.titulo-segundo.color-acento-contenido
           h2 3.2  Objetivos
-        p.mb-4 La determinación de los objetivos de las promociones de ventas ha sido un tema debatido y objeto de numerosas revisiones en los últimos años. Esto se debe, como se ha mencionado, a la confusión respecto a la definición de promoción de ventas y su alcance en el marketing mix de la empresa, por una parte; y por otra, al reconocimiento reciente de los efectos de las promociones de ventas en el largo plazo y su correspondiente papel en los objetivos estratégicos de marketing.
-        p Existe un amplio consenso en cuanto a los tres grandes objetivos generales reconocidos en la mayor parte de las definiciones del concepto de promoción de ventas, esto es: estimular la demanda del usuario final, mejorar el desempeño de marketing de intermediarios y vendedores y complementar las funciones de publicidad y venta personal. Sin embargo, en cuanto a los objetivos específicos de las promociones de ventas, existen diferentes clasificaciones atendiendo a distintos criterios, tales como su alcance temporal, los agentes que las utilizan y el público objetivo al que van dirigidas, que se resumen a continuación, de acuerdo a lo indicado por Sánchez (2017):
+        p.mb-4 La determinación de los objetivos de las promociones de ventas ha sido un tema debatido y objeto de numerosas revisiones en los últimos años. Esto se debe, como se ha mencionado, a la confusión respecto a la definición de promoción de ventas y su alcance en el #[em marketing] mix de la empresa, por una parte; y por otra, al reconocimiento reciente de los efectos de las promociones de ventas en el largo plazo y su correspondiente papel en los objetivos estratégicos de #[em marketing].
+        p Existe un amplio consenso en cuanto a los tres grandes objetivos generales reconocidos en la mayor parte de las definiciones del concepto de promoción de ventas, esto es: estimular la demanda del usuario final, mejorar el desempeño de #[em marketing] de intermediarios y vendedores y complementar las funciones de publicidad y venta personal. Sin embargo, en cuanto a los objetivos específicos de las promociones de ventas, existen diferentes clasificaciones atendiendo a distintos criterios, tales como su alcance temporal, los agentes que las utilizan y el público objetivo al que van dirigidas, que se resumen a continuación, de acuerdo a lo indicado por Sánchez (2017):
       .col-lg-5.col-md-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/t3/imag01.png' alt='')
 
@@ -121,7 +121,7 @@
             | Incrementar la cuota de mercado.
           li 
             i.fas.fa-check-circle
-            | Aumentar los beneficios
+            | Aumentar los beneficios.
     
     .linea-separador.mb-5.pt-4
 
@@ -341,22 +341,22 @@
         ul.lista-ul--color.fa-ul
           li 
             i.fas.fa-check-circle
-            | El marketing promocional dispone de un gran número de herramientas y técnicas para la consecución de los objetivos señalados en el apartado anterior. Ahora bien, las técnicas más eficaces en cada caso dependerán del objetivo perseguido y del público objetivo al que se dirijan.
+            span.mb-0 El #[em marketing] promocional dispone de un gran número de herramientas y técnicas para la consecución de los objetivos señalados en el apartado anterior. Ahora bien, las técnicas más eficaces en cada caso dependerán del objetivo perseguido y del público objetivo al que se dirijan.
         p.mb-4.ps-4 Existen numerosos criterios de clasificación de las distintas herramientas y técnicas promocionales, aunque muchos de ellos presentan características comunes y ciertos solapamientos. A continuación, se exponen los criterios de clasificación más utilizados; esto es, en función del público objetivo al que se dirigen y en función del incentivo promocional ofrecido al consumidor.
     
     .fondo-bloque2.p-4.p-md-5.p-lg-4.py-5.mb-5(data-aos="fade-down")
       .row.justify-content-center.align-items-center
         .col-lg-6
           h5 Según el público objetivo al que van dirigidas
-          p Uno de los criterios más utilizados para clasificar las promociones de ventas es el sugerido por Blattberg y Neslin, atendiendo a si se trata de promociones del fabricante al distribuidor, del distribuidor al consumidor o directamente del fabricante al consumidor, conocida como estrategia Push y Pull la que ha sido seguida por autores como Kotler (2000), Tellis (2002) o Santesmases (2007), entre otros.
+          p Uno de los criterios más utilizados para clasificar las promociones de ventas es el sugerido por Blattberg y Neslin, atendiendo a si se trata de promociones del fabricante al distribuidor, del distribuidor al consumidor o directamente del fabricante al consumidor, conocida como estrategia #[em Push] y #[em Pull] la que ha sido seguida por autores como Kotler (2000), Tellis (2002) o Santesmases (2007), entre otros.
         .col-lg-4.col-md-10
           img.mb-3(src='@/assets/curso/temas/t3/fig1.svg' alt='La figura presenta un diagrama circular que relaciona al fabricante con el consumidor a través de promociones al consumido; al fabricante con el distribuidor a través de la promociones del fabricante; y al distribuidor con el consumidor a través de promociones del distribuidor.')
           p.mb-0.text-center #[b Figura 1.] Estrategia #[em push and pull]
     
     .row.justify-content-center(data-aos="fade")
       .col-lg-10
-        p De acuerdo con esta clasificación, en la estrategia Push las promociones al consumidor comprenden todas aquellas acciones promocionales ofrecidas por los fabricantes directamente al consumidor final, cuyo objetivo principal será el de fomentar la compra de la marca promocionada. Push 
-        p Por su parte en la estrategia Pull las promociones del distribuidor son también promociones dirigidas al consumidor, pero, en este caso, diseñadas por el propio detallista, y perseguirán atraer clientes al establecimiento y aumentar las ventas y la rentabilidad del surtido en su conjunto. En muchos casos existen conflictos de interés entre las promociones al consumidor diseñadas por los fabricantes y las promovidas por los distribuidores, por lo que cada vez adquieren mayor importancia el tercer tipo de promociones, esto es, aquellas dirigidas al distribuidor por el fabricante (Trade Deals), con el objetivo de que el detallista transfiera a los consumidores parte de este incentivo. 
+        p De acuerdo con esta clasificación, en la estrategia #[em Push] las promociones al consumidor comprenden todas aquellas acciones promocionales ofrecidas por los fabricantes directamente al consumidor final, cuyo objetivo principal será el de fomentar la compra de la marca promocionada. #[em Push]
+        p Por su parte en la estrategia #[em Pull] las promociones del distribuidor son también promociones dirigidas al consumidor, pero, en este caso, diseñadas por el propio detallista, y perseguirán atraer clientes al establecimiento y aumentar las ventas y la rentabilidad del surtido en su conjunto. En muchos casos existen conflictos de interés entre las promociones al consumidor diseñadas por los fabricantes y las promovidas por los distribuidores, por lo que cada vez adquieren mayor importancia el tercer tipo de promociones, esto es, aquellas dirigidas al distribuidor por el fabricante (Trade Deals), con el objetivo de que el detallista transfiera a los consumidores parte de este incentivo. 
     
 
     Separador
@@ -528,7 +528,7 @@
     
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.4  Técnicas de merchandising
+      h2 3.4  Técnicas de #[em merchandising]
     
     .row.mb-4(data-aos="fade")
       .col-lg-1.col-md-2.col-3.mb-3

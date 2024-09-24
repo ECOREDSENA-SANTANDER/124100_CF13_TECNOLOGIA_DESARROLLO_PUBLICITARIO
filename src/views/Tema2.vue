@@ -27,7 +27,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/19ctgJoJZzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Elementos básicos de un plan de medios
-    
+
 
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -47,25 +47,25 @@
           .col-6.col-md-3.col-lg-5
             img(src='@/assets/curso/temas/t2/slyder2.svg' alt='')
         h4.tit-morado.mb-4 Penetración o consumo
-        p.text-center Este dato está relacionado con un mercado objetivo específico, es la cifra promedio que un medio puede impactar de un target en particular.
+        p.text-center Este dato está relacionado con un mercado objetivo específico, es la cifra promedio que un medio puede impactar de un #[em target] en particular.
       .tarjeta.bg7.p-4
         .row.justify-content-center.mb-3
           .col-6.col-md-3.col-lg-5
             img(src='@/assets/curso/temas/t2/slyder3.svg' alt='')
-        h4.tit-morado.mb-4 Share de audiencia
+        h4.tit-morado.mb-4 #[em Share] de audiencia
         p.text-center Esta variable indica el porcentaje de participación de un medio en relación con el total de la audiencia.
       .tarjeta.bg7.p-4
         .row.justify-content-center.mb-3
           .col-6.col-md-3.col-lg-5
             img(src='@/assets/curso/temas/t2/slyder4.svg' alt='')
         h4.tit-morado.mb-4 Perfil de la audiencia
-        p.text-center Cada medio, programa o sitio web tiene un público definido, esta variable indica el arquetipo de consumidor que un medio atrae, este debe caracterizarse desde el enfoque demográfico y psicográfico, con el fin que quienes compren un espacio comercial tengan claro a quién dirigen sus estrategias de comunicación.
+        p.text-center Cada medio, programa o sitio #[em web] tiene un público definido, esta variable indica el arquetipo de consumidor que un medio atrae, este debe caracterizarse desde el enfoque demográfico y psicográfico, con el fin que quienes compren un espacio comercial tengan claro a quién dirigen sus estrategias de comunicación.
       .tarjeta.bg7.p-4
         .row.justify-content-center.mb-3
           .col-6.col-md-3.col-lg-5
             img(src='@/assets/curso/temas/t2/slyder5.svg' alt='')
         h4.tit-morado.mb-4 Coeficiente de afinidad
-        p.text-center Esta variable indica el porcentaje de un determinado target al que el medio impacta del total de su audiencia.
+        p.text-center Esta variable indica el porcentaje de un determinado #[em target] al que el medio impacta del total de su audiencia.
       .tarjeta.bg7.p-4
         .row.justify-content-center.mb-3
           .col-6.col-md-3.col-lg-5
@@ -76,7 +76,7 @@
         .row.justify-content-center.mb-3
           .col-6.col-md-3.col-lg-5
             img(src='@/assets/curso/temas/t2/slyder7.svg' alt='')
-        h4.tit-morado.mb-4 Ratint point
+        h4.tit-morado.mb-4 #[em Rating point]
         p.text-center Corresponde al porcentaje de audiencia útil que tiene un medio del total de su audiencia.
 
 
@@ -123,10 +123,10 @@
         ul.lista-ul--color.lista-ul--separador.fa-ul.color-secundario
           li 
             i.fas.fa-check-circle
-            span.mb-0 #[b Visitantes o usuarios:] corresponde al número total de usuarios que ingresan a un sitio web en un lapso en particular: en un día, semana o mes.
+            span.mb-0 #[b Visitantes o usuarios:] corresponde al número total de usuarios que ingresan a un sitio #[em web] en un lapso en particular: en un día, semana o mes.
           li 
             i.fas.fa-check-circle
-            span.mb-0 #[b Páginas vistas:] corresponden al número de páginas vistas de un sitio web en un periodo en particular y sirven para conocer la actividad de un sitio web.
+            span.mb-0 #[b Páginas vistas:] corresponden al número de páginas vistas de un sitio #[em web] en un periodo en particular y sirven para conocer la actividad de un sitio #[em web].
           li 
             i.fas.fa-check-circle
             span.mb-0 #[b Impactos:] corresponde al número de veces que un usuario es impactado por un anuncio publicitario.
@@ -140,7 +140,7 @@
             span.mb-3 #[b CPC (Costo Por Clic):] es el costo por cada clic que realicen los usuarios en un anuncio en particular.
           li 
             i.fas.fa-check-circle
-            span.mb-0 #[b Tasa de rebote:] corresponde a la cantidad de usuarios que ingresan a una landing page y no interactúan con ella.
+            span.mb-0 #[b Tasa de rebote:] corresponde a la cantidad de usuarios que ingresan a una #[em landing page] y no interactúan con ella.
     
 
     Separador
@@ -310,16 +310,16 @@
     PasosA.color-secundario(tipo="n" data-aos="fade-down")
       div
         h3 Histórico de ventas: 
-        p si la empresa tiene un recorrido importante en el mercado se puede hacer un estimado del mercado objetivo total, a partir del histórico de ventas, esto permite a la empresa saber que tan grande es el mercado y quiénes son los compradores.
+        p Si la empresa tiene un recorrido importante en el mercado se puede hacer un estimado del mercado objetivo total, a partir del histórico de ventas, esto permite a la empresa saber que tan grande es el mercado y quiénes son los compradores.
       div
         h3 Utilidades brutas: 
-        p en este caso el presupuesto de ventas se plantea con base en un porcentaje sobre las ventas. Es el método más recomendado, puesto que son los clientes los que deberían pagar por la información que reciben acerca del producto.
+        p En este caso el presupuesto de ventas se plantea con base en un porcentaje sobre las ventas. Es el método más recomendado, puesto que son los clientes los que deberían pagar por la información que reciben acerca del producto.
       div
         h3 Pronóstico
-        p es un método incierto puesto que se destina el presupuesto sobre suposiciones o pronósticos que realiza la empresa estimando un potencial de mercado y de ventas.
+        p Es un método incierto puesto que se destina el presupuesto sobre suposiciones o pronósticos que realiza la empresa estimando un potencial de mercado y de ventas.
       div
         h3 Histórico de campañas: 
-        p es otro método recomendado, el cual se basa en lo invertido en campañas realizadas anteriormente por la empresa, esto permite determinar si lo invertido fue lo adecuado o si debe ajustarse el presupuesto para el logro de los objetivos.
+        p Es otro método recomendado, el cual se basa en lo invertido en campañas realizadas anteriormente por la empresa, esto permite determinar si lo invertido fue lo adecuado o si debe ajustarse el presupuesto para el logro de los objetivos.
 
 
 

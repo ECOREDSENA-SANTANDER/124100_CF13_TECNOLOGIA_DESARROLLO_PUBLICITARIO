@@ -7,7 +7,7 @@
         span.color-sistema 5
       h1 Diseño de Material P.O.P
     
-    p.mb-4 A continuación, se presentan una serie de videos explicativos acerca de la creación de material POP (Point Of Purchase Display), con lo cual se ejemplifican algunas estrategias para potenciar las ventas de una marca.
+    p.mb-4 A continuación, se presentan una serie de videos explicativos acerca de la creación de material POP (#[em Point Of Purchase Display]), con lo cual se ejemplifican algunas estrategias para potenciar las ventas de una marca.
 
 
     Separador

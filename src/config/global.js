@@ -216,9 +216,9 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bots',
+      termino: '<em>Bots</em>',
       significado:
-        'software que genera tareas automáticas a través de internet.',
+        '<em>software</em> que genera tareas automáticas a través de internet.',
     },
     {
       termino: 'Cobertura',
@@ -228,20 +228,20 @@ export default {
     {
       termino: 'Consumidor',
       significado:
-        'Es a quien el marketing dirige sus acciones, sea una persona u organización, con el fin de orientar o incitar a la compra y, para ello, se debe estudiar el proceso de toma de decisiones de quien va a adquirir el producto o servicio.',
+        'Es a quien el <em>marketing</em> dirige sus acciones, sea una persona u organización, con el fin de orientar o incitar a la compra y, para ello, se debe estudiar el proceso de toma de decisiones de quien va a adquirir el producto o servicio.',
     },
     {
-      termino: 'Cookies',
+      termino: '<em>Cookies</em>',
       significado:
-        'Archivo presente en cualquier sitio de internet y que almacena datos sobre las preferencias y pautas de navegación de los usuarios que acceden a páginas web, redes sociales, blogs, y cualquier sitio virtual integrado en la red.',
+        'Archivo presente en cualquier sitio de internet y que almacena datos sobre las preferencias y pautas de navegación de los usuarios que acceden a páginas <em>web</em>, redes sociales, <em>blogs</em>, y cualquier sitio virtual integrado en la red.',
     },
     {
-      termino: 'Displays',
+      termino: '<em>Displays</em>',
       significado:
         '“son objetos tridimensionales que permiten captar la atención del consumidor o cliente, aplicando a objetos bidimensionales atributos tridimensionales como el volumen, peso, entre otros” (Pranapublicist, 2020).',
     },
     {
-      termino: 'E-mail marketing',
+      termino: '<em>E-mail marketing</em>',
       significado:
         'consiste en utilizar el correo electrónico para llevar a cabo acciones comerciales mediante el envío masivo de información.',
     },
@@ -256,17 +256,17 @@ export default {
         'influencia que ejerce un mensaje publicitario sobre el público objetivo, a partir de la suma de todas las exposiciones o contactos con el anuncio que ha tenido el grupo de consumidores al que va dirigido.',
     },
     {
-      termino: 'Merchandising',
+      termino: '<em>Merchandising</em>',
       significado:
         '“conjunto de técnicas que se aplican en el punto de venta para motivar el acto de compra de la manera más rentable, tanto para el fabricante como para el distribuidor, satisfaciendo al mismo tiempo las necesidades del consumidor. Está totalmente comprobada la influencia que tiene en la venta que el producto esté colocado en uno u otro espacio. Si el producto no está colocado en el lugar correcto decrece notablemente su ratio de ventas” (Marketing XXI, 2020).',
     },
     {
       termino: 'Punto de venta',
       significado:
-        '“por definición el Punto de Venta o POS (Point of Sale) es el punto de contacto del consumidor con las marcas o productos para su compra. Es el lugar idóneo donde las marcas pueden posicionarse, sin embargo por la relevancia que ha tomado, el PDV va más allá” (Informa BTL, 2015).',
+        '“por definición el Punto de Venta o POS (<em>Point of Sale</em>) es el punto de contacto del consumidor con las marcas o productos para su compra. Es el lugar idóneo donde las marcas pueden posicionarse, sin embargo por la relevancia que ha tomado, el PDV va más allá” (Informa BTL, 2015).',
     },
     {
-      termino: 'Punto de venta',
+      termino: 'Usuario',
       significado:
         'persona que utiliza de forma habitual internet para sus rutinas diarias. Para las marcas determinados perfiles de usuario se pueden convertir en su público objetivo.',
     },
@@ -324,7 +324,7 @@ export default {
       referencia:
         'Sánchez, G. R. (2017). Las estrategias del trade marketing en el punto de venta y su relación con la compra por impulso de los clientes buyer del Hipermercado Plaza Vea del Distrito de Tacna 2017',
       link:
-        'http://repositorio.upt.edu.pe/bitstream/UPT/320/1/Sanchez-Yufra-Gerson-Rodrigo.pdf',
+        'https://repositorio.upt.edu.pe/bitstream/handle/20.500.12969/320/Sanchez-Yufra-Gerson-Rodrigo.pdf',
     },
     {
       referencia:

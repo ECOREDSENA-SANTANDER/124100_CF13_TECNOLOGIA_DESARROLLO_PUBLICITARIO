@@ -99,7 +99,7 @@
           .tarjeta.bg4
             .p-4
               h4.text-center Medición prensa y revistas digitales
-              p.text-center Los medios digitales también deben combinar varios datos para determinar su audiencia total, es importante aclarar que las revistas y periódicos digitales en su mayoría cuentan con un sitio web, por lo tanto, el primer dato está relacionado con las visitas a este. Otro dato importante son los suscriptores, ya sea que el medio sea pago o gratuito, siempre debe tener un sistema de suscripción para poder medir audiencias, generar bases de datos y fidelizar a los espectadores. Finalmente, estos medios pueden hacer análisis de audiencias a través de los sistemas de analítica web, sin embargo y a pesar de la precisión de estos sistemas de medición, muchos datos de bots no se pueden discriminar, ya que alteraría las estadísticas.
+              p.text-center Los medios digitales también deben combinar varios datos para determinar su audiencia total, es importante aclarar que las revistas y periódicos digitales en su mayoría cuentan con un sitio #[em web], por lo tanto, el primer dato está relacionado con las visitas a este. Otro dato importante son los suscriptores, ya sea que el medio sea pago o gratuito, siempre debe tener un sistema de suscripción para poder medir audiencias, generar bases de datos y fidelizar a los espectadores. Finalmente, estos medios pueden hacer análisis de audiencias a través de los sistemas de analítica #[em web], sin embargo y a pesar de la precisión de estos sistemas de medición, muchos datos de #[em bots] no se pueden discriminar, ya que alteraría las estadísticas.
 
 
 
