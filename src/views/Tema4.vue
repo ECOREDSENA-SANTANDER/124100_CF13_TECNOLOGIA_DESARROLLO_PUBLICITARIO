@@ -13,7 +13,7 @@
       .col-lg-8.p-relative
         .bg6.p-5
           .bg1.p-4.p-lg-5.z-999
-            p Los que acuden a los establecimientos a realizar sus compras y quienes toman la decisión de comprar los artículos o no, son los clientes. Por este motivo, el #[em marketing] se preocupa por conocerlos y estudiar cómo toman sus decisiones y sin duda, aplicar las técnicas de merchandising sin un conocimiento previo de los consumidores no tendría sentido, ya que, si no se logra la adaptación a sus necesidades, gustos, deseos y preferencias, los esfuerzos no servirían de nada. #[b En función de la actuación de los clientes, se pueden distinguir dos tipos:]
+            p Los que acuden a los establecimientos a realizar sus compras y quienes toman la decisión de comprar los artículos o no, son los clientes. Por este motivo, el #[em marketing] se preocupa por conocerlos y estudiar cómo toman sus decisiones y sin duda, aplicar las técnicas de #[em merchandising] sin un conocimiento previo de los consumidores no tendría sentido, ya que, si no se logra la adaptación a sus necesidades, gustos, deseos y preferencias, los esfuerzos no servirían de nada. #[b En función de la actuación de los clientes, se pueden distinguir dos tipos:]
     
     .row.mb-4.bg4(data-aos="fade-down")
       .col-lg-6

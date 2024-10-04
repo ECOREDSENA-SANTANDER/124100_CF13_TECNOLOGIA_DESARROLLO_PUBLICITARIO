@@ -7,7 +7,7 @@
         span.color-sistema 3
       h1 #[em Merchandising] - Promoción en el punto de venta
     
-    p.mb-4(data-aos="fade") En el siguiente video se expone con claridad el concepto de merchandising y su relación con la promoción en puntos de venta:
+    p.mb-4(data-aos="fade") En el siguiente video se expone con claridad el concepto de #[em merchandising] y su relación con la promoción en puntos de venta:
 
     figure(data-aos="fade-down")
       .video
