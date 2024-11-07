@@ -45,7 +45,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Fuentes de medición de audiencia',
+            titulo: 'Fuentes de medición de audiencias',
             hash: 't_1_1',
           },
         ],
@@ -64,7 +64,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Variables para el análisis de medio',
+            titulo: 'Variables para el análisis de medios',
             hash: 't_2_2',
           },
           {
@@ -74,7 +74,7 @@ export default {
           },
           {
             numero: '2.4',
-            titulo: 'Variables para el análisis de medios digitale',
+            titulo: 'Variables para el análisis de medios digitales',
             hash: 't_2_4',
           },
           {
