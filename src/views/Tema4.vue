@@ -25,7 +25,7 @@
           img.w-82.m-auto.mb-3(src='@/assets/curso/temas/t4/icono2.svg' alt='')
           p.mb-0 #[b El cliente #[em buyer]:] es el que ya está dentro del punto de venta. Basará su decisión de compra en los precios, la calidad de los productos, las distintas ofertas, las promociones, la gama de productos y el trato recibido.
     
-    p(data-aos="fade") La tendencia actual es la comodidad y muchos comercios excelentes por dentro descuidan lo referente a la atracción requerida en los aspectos #[em shopper], tales como la señalización adecuada para que el cliente sepa cómo ir al local o la numeración de las plazas de aparcamiento, por citar algunos. Por el contrario, otros comercios han reforzado los aspectos #[em shopper], pero han descuidado la cortesía y atención al cliente.
+    p(data-aos="fade") La tendencia actual es la comodidad, y muchos comercios excelentes por dentro descuidan lo referente a la atracción requerida en los aspectos #[em shopper], tales como la señalización adecuada para que el cliente sepa cómo ir al local o la numeración de las plazas de aparcamiento, por citar algunos. Por el contrario, otros comercios han reforzado los aspectos #[em shopper], pero han descuidado la cortesía y atención al cliente.
     p.mb-4(data-aos="fade") Conocer el comportamiento del consumidor exige hacerse una serie de preguntas:
 
     .row.align-items-center
@@ -70,7 +70,7 @@
     .row.align-items-center.justify-content-between.mb-4
       .col-lg-7(data-aos="fade-right")
         h5 Evaluación de la información
-        p A la hora de evaluar la información obtenida tenemos en cuenta una serie de criterios que ayudan a tomar la decisión, y que sabemos cuáles son gracias a los es estudios realizados sobre el tema. Los criterios que el cliente tiene en cuenta a la hora de comprar son:
+        p A la hora de evaluar la información obtenida tenemos en cuenta una serie de criterios que ayudan a tomar la decisión, y que sabemos cuáles son gracias a los estudios realizados sobre el tema. Los criterios que el cliente tiene en cuenta a la hora de comprar son:
         .row
           .col-lg-6 
             ul.lista-ul--color.fa-ul
@@ -100,15 +100,15 @@
       .col-lg-4.col-md-5.col-10(data-aos="fade-left")  
         img(src='@/assets/curso/temas/t4/imag04.svg' alt='')
     
-    p(data-aos="fade") Así, por ejemplo, si hemos decidido comprar una plancha nueva, tendremos en cuenta el dinero que nos vamos a gastar, si nos interesa que sea de alta gama o por el contrario preferimos una gama baja porque no la usamos mucho. Dependiendo de las alternativas que haya y de la decisión adoptada, compraremos finalmente una plancha determinada.
+    p(data-aos="fade") Así, por ejemplo, si hemos decidido comprar una plancha nueva, tendremos en cuenta el dinero que nos vamos a gastar, si nos interesa que sea de alta gama o, por el contrario, preferimos una gama baja porque no la usamos mucho. Dependiendo de las alternativas que haya y de la decisión adoptada, compraremos finalmente una plancha determinada.
     
     .linea-separador.mb-5.pt-4
 
     h5(data-aos="fade") Decisión y acto de compra
-    p.mb-4(data-aos="fade") Una vez que hemos valorado las posibilidades a nuestro alcance, decidimos que producto comprar y lo hacemos. En el acto de compra pueden intervenir varias personas (aunque también pueden ser una misma persona). Así, existen diferentes roles:
-    
+    p.mb-4(data-aos="fade") Una vez que hemos valorado las posibilidades a nuestro alcance, decidimos qué producto comprar y lo hacemos. En el acto de compra pueden intervenir varias personas (aunque también pueden ser una misma persona). Así, existen diferentes roles:
+
     .row.justify-content-center(data-aos="fade-down")
-      .col-lg-9
+      .col-lg-11
         TabsA.color-acento-botones
           .bg3.p-4.p-lg-5(titulo="El iniciador")
             p #[b El iniciador:] es la persona que sugiere realizar una compra al descubrir que tiene una necesidad no satisfecha. 
@@ -132,7 +132,7 @@
       .col-lg-6(data-aos="fade-right")
         h5 Consumo y valoración postcompra
         p.mb-4 Finalmente, una vez que se ha comprado el producto, hay que consumirlo y evaluar si la compra ha sido un acierto o un error; es decir, si se está satisfecho o decepcionado después de la compra y el consumo. Es la última fase.
-        p.mb-4 Si ha sido un acierto, se habrá logrado fidelizar al cliente y la próxima vez que necesite comprar este producto es muy posible que repita la experiencia y vuelva a comprar. Es más, es posible incluso que, si la experiencia ha sido muy positiva, lo comparta con amigos y familiares.
+        p.mb-4 Si ha sido un acierto, se habrá logrado fidelizar al cliente y la próxima vez que necesite comprar este producto, es muy posible que repita la experiencia y vuelva a comprar. Es más, es posible incluso que, si la experiencia ha sido muy positiva, lo comparta con amigos y familiares.
         p En el caso de que la experiencia haya sido negativa, el cliente puede reaccionar de diversas maneras:
       .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/imag05.svg' alt='')
@@ -191,7 +191,7 @@
           .col-5.col-md-3.col-lg-4
             img(src='@/assets/curso/temas/t4/slyder.svg' alt='')
         h5 Atención
-        p Consiste en presentar el producto de una manera atractiva; es decir, llamar la atención del cliente mediante la presentación y las características del producto. Para ello, se utilizan varias herramientas: el precio, el envase, degustaciones.
+        p Consiste en presentar el producto de una manera atractiva; es decir, llamar la atención del cliente mediante la presentación y las características del producto. Para ello, se utilizan varias herramientas: el precio, el envase, las degustaciones.
       .tarjeta.bg7.p-4.text-center
         .row.justify-content-center.mb-3
           .col-5.col-md-3.col-lg-4

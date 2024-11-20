@@ -33,7 +33,7 @@
             .lista-ol--cuadro__vineta
               span.fw-bold a
             h4 Estudio General de Medios (EGM)
-        p.ps-4 El EGM es un estudio poblacional que busca una representación adecuada del universo objetivo, a través de una muestra interrogada acerca de su comportamiento en relación al consumo de medios, entre otras cosas.
+        p.ps-4 El EGM es un estudio poblacional que busca una representación adecuada del universo objetivo, a través de una muestra interrogada acerca de su comportamiento en relación con el consumo de medios, entre otras cosas.
         p.ps-4 La representación de los lectores, oyentes o espectadores es más una consecuencia que una premisa.
         p.ps-4 El EGM es un estudio multimedia, es decir, que estudia para cada individuo su comportamiento respecto a los distintos medios. La realidad social es multimedia, como lo es también en su mayor parte la realidad publicitaria.
       .col-lg-4.col-md-6.col-10(data-aos="fade-left")
@@ -44,7 +44,7 @@
         .cajon.color-secundario.bg2.p-4.mb-5
           p.mb-0 El EGM proporciona dos grandes tipos de datos sobre la audiencia: ¿cuántos son? y ¿cómo son?, es decir, cuál es su perfil en lo referente a variables sociodemográficas, geográficas, de estilo de vida, consumo y equipamiento.     
 
-        h4 Es importante tener presente dos aspectos del EGM:
+        h4 Es importante tener presentes dos aspectos del EGM:
         ul.lista-ul--color.color-secundario.fa-ul.mb-4
           li 
             i.fas.fa-check-circle
@@ -70,13 +70,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag03.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El #[em rating] es el indicador que define la cantidad de personas o espectadores que tiene un programa de televisión o radio. Este determina la proyección y la posible efectividad de una campaña publicitaria o anuncio que se exponga en uno de estos medios. El #[em rating] se mide en puntos, donde cada uno equivale a 100 mil personas, entonces si se habla de 5 puntos de #[em rating], eso significa que 500 mil personas están viendo un programa de televisión o escuchando uno de radio a una hora determinada.
+            p.mb-0 El #[em rating] es el indicador que define la cantidad de personas o espectadores que tiene un programa de televisión o radio. Este determina la proyección y la posible efectividad de una campaña publicitaria o anuncio que se exponga en uno de estos medios. El #[em rating] se mide en puntos, donde cada uno equivale a cien mil personas, entonces si se habla de 5 puntos de #[em rating], eso significa que quinientas mil personas están viendo un programa de televisión o escuchando uno de radio a una hora determinada.
         
         .cajon.color-secundario.bg2.p-4.mb-5(data-aos="fade-down")
-          p.mb-0 En Colombia se generan informes del #[em rating] de forma periódica, parte de esa información es de acceso público. La empresa Ibope es quien desarrolla dicha medición desde hace casi 30 años de la misma forma que lo hace en otros países de Latinoamérica.
+          p.mb-0 En Colombia se generan informes del #[em rating] de forma periódica, parte de esa información es de acceso público. La empresa Ibope es quien desarrolla dicha medición desde hace casi 30 años, de la misma forma que lo hace en otros países de Latinoamérica.
         
         h4(data-aos="fade") Medición de #[em rating]
-        p.mb-4(data-aos="fade") En la actualidad y gracias a la tecnología y a la conectividad de la televisión, el proceso es 100% digital, a través de un dispositivo llamado <#[b #[em People meter]]> que se instala directamente en los televisores de los hogares seleccionados para realizar dicha medición. El #[em People meter] permite saber con base en la muestra, el tiempo que una persona está conectada en un canal específico y los cambios de canales que realiza durante el tiempo que permanece frente a la pantalla. Adicionalmente, este dispositivo realiza un perfilamiento de los usuarios para saber quién específicamente está viendo determinado programa. La información pasa luego a una central de información donde acopian, tabulan y analizan todos los datos. De acuerdo con el tamaño de la población el máximo de #[em rating] que puede tener un programa en Colombia es de 40 puntos.
+        p.mb-4(data-aos="fade") En la actualidad y gracias a la tecnología y a la conectividad de la televisión, el proceso es 100% digital, a través de un dispositivo llamado <#[b #[em People meter]]> que se instala directamente en los televisores de los hogares seleccionados para realizar dicha medición. El #[em People meter] permite saber con base en la muestra, el tiempo que una persona está conectada en un canal específico y los cambios de canales que realiza durante el tiempo que permanece frente a la pantalla. Adicionalmente, este dispositivo realiza un perfilamiento de los usuarios para saber quién específicamente está viendo determinado programa. La información pasa luego a una central de información donde acopian, tabulan y analizan todos los datos. De acuerdo con el tamaño de la población, el máximo de #[em rating] que puede tener un programa en Colombia es de 40 puntos.
     
     .row(data-aos="fade-down")
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -85,7 +85,7 @@
           .tarjeta.bg4
             .p-4
               h4.text-center Medición de #[em rating] de radio
-              p.text-center Para el caso de las audiencias de radio es diferente, aunque en la actualidad se puede determinar cuántas personas están conectadas a una cadena radial vía a internet, sin embargo, aún hay muchos radio-escuchas que sintonizan a través de las frecuencias AM y FM. Para estos casos se toman varios datos combinados; uno es el de las encuestas a una muestra representativa de la población y el otro se basa en la retroalimentación que hacen los oyentes por los diferentes medios: teléfono, redes sociales y correo electrónico. Para este, cada emisora y programa de radio se encarga de realizar la medición de su audiencia, con el fin de vender pauta publicitaria.
+              p.text-center Para el caso de las audiencias de radio es diferente, aunque en la actualidad se puede determinar cuántas personas están conectadas a una cadena radial vía a internet, sin embargo, aún hay muchos radioescuchas que sintonizan a través de las frecuencias AM y FM. Para estos casos se toman varios datos combinados; uno es el de las encuestas a una muestra representativa de la población y el otro se basa en la retroalimentación que hacen los oyentes por los diferentes medios: teléfono, redes sociales y correo electrónico. Para esto, cada emisora y programa de radio se encarga de realizar la medición de su audiencia, con el fin de vender pauta publicitaria.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t1/tarjeta2.svg' alt='')
@@ -99,7 +99,7 @@
           .tarjeta.bg4
             .p-4
               h4.text-center Medición prensa y revistas digitales
-              p.text-center Los medios digitales también deben combinar varios datos para determinar su audiencia total, es importante aclarar que las revistas y periódicos digitales en su mayoría cuentan con un sitio #[em web], por lo tanto, el primer dato está relacionado con las visitas a este. Otro dato importante son los suscriptores, ya sea que el medio sea pago o gratuito, siempre debe tener un sistema de suscripción para poder medir audiencias, generar bases de datos y fidelizar a los espectadores. Finalmente, estos medios pueden hacer análisis de audiencias a través de los sistemas de analítica #[em web], sin embargo y a pesar de la precisión de estos sistemas de medición, muchos datos de #[em bots] no se pueden discriminar, ya que alteraría las estadísticas.
+              p.text-center Los medios digitales también deben combinar varios datos para determinar su audiencia total. Es importante aclarar que las revistas y periódicos digitales en su mayoría cuentan con un sitio #[em web], por lo tanto, el primer dato está relacionado con las visitas a este. Otro dato importante son los suscriptores, ya sea que el medio sea pago o gratuito, siempre debe tener un sistema de suscripción para poder medir audiencias, generar bases de datos y fidelizar a los espectadores. Finalmente, estos medios pueden hacer análisis de audiencias a través de los sistemas de analítica #[em web], sin embargo y a pesar de la precisión de estos sistemas de medición, muchos datos de #[em bots] no se pueden discriminar, ya que alteraría las estadísticas.
 
 
 

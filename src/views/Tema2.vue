@@ -33,7 +33,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2  Variables para el análisis de medios
     
-    p.mb-4(data-aos="fade") Por otro lado, la planeación de medios implica conocer a fondo los canales por medio de los cuales se va llevar el mensaje al público objetivo, logrando que este llegue de la forma más eficiente posible y logre el cumplimiento de las metas planteadas para la campaña. Para conocer los medios y tener un criterio bien estructurado que permite tomar las decisiones más acertadas en cuanto a selección, jerarquización y peso de los medios para la campaña se requieren las siguientes variables:
+    p.mb-4(data-aos="fade") Por otro lado, la planeación de medios implica conocer a fondo los canales por medio de los cuales se va a llevar el mensaje al público objetivo, logrando que este llegue de la forma más eficiente posible y logre el cumplimiento de las metas planteadas para la campaña. Para conocer los medios y tener un criterio bien estructurado que permite tomar las decisiones más acertadas en cuanto a selección, jerarquización y peso de los medios para la campaña, se requieren las siguientes variables:
 
     SlyderF(columnas="col-lg-6 col-xl-4 t2-tarj-hover" data-aos="fade-down")
       .tarjeta.bg7.p-4
@@ -154,7 +154,10 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")
           .row(titulo="Cronograma para redes sociales / internet")
             .col-lg-12
-              table.table.table-striped.m-0
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 1. 
+                span Cronograma para redes.
+              table.table.table-striped.m-0(alt=" Se presenta una tabla con 7 columnas y 7 filas, En la primera fila se menciona: Red/plataforma, tipo de campaña, costo, CPC, CPM, Fecha, hora. En la primera columna se mencionan las diferentes redes sociales y en la segunda fila se mencionan diferentes tipos de campaña: grupo de anuncios, retargueting, video promocional, aumento leads, anuncio y texto. las demás casillas se encuentran vacías.")
                 tbody
                   tr.bg8.fw-bold
                     td Red / plataforma
@@ -214,7 +217,10 @@
                     td          
           .row(titulo="Cronograma para radio")
             .col-12
-              table.table.table-striped.m-0
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 2. 
+                span Ejemplo de cronograma para radio.
+              table.table.table-striped.m-0(alt="La tabla tiene 7 columnas y dos filas, en la primera fila se puede leer: emisora, programa, duración, costo, CPM, fecha y hora. En la segunda fila se presenta un ejemplo: W radio, sigue la W, 15”, 3000000, 120000.")
                 tbody
                   tr.bg8.fw-bold
                     td Emisora
@@ -258,7 +264,10 @@
                     td          
           .row(titulo="Cronograma para revistas")
             .col-lg-12
-              table.table.table-striped.m-0
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 3. 
+                span Ejemplo de cronograma para revista.
+              table.table.table-striped.m-0(alt="La tabla tiene 7 columnas y dos filas, en la primera fila se puede leer: revista, ubicación, tamaño anuncio, costo, CPM, fecha publicación. En la  segunda fila se presenta un ejemplo: semana, derecha- columnas opinión, media pagina horizontal, 17000000, 100000.")
                 tbody
                   tr.bg8.fw-bold
                     td Revista
@@ -303,7 +312,7 @@
       .col-lg-7(data-aos="fade-right")
         #t_2_6.titulo-segundo.color-acento-contenido
           h2 2.6  Presupuesto
-        p Determinar el presupuesto de una campaña es tal vez la terea más difícil del proceso, pues es incierto saber o determinar el monto adecuado para tener los resultados esperados y la publicidad no es una ciencia exacta; aunque las plataformas de publicidad de redes sociales han logrado un acercamiento a un presupuesto bien definido, puesto que de ante mano se sabe a cuántas personas se puede impactar y cuánto costará llegar a ellas; sin embargo, no se puede saber aún cuántos de esos usuarios van a responder positivamente a la campaña y solo se puede hablar de estimados. Hay varios métodos para definir un presupuesto publicitario:
+        p Determinar el presupuesto de una campaña es tal vez la tarea más difícil del proceso, pues es incierto saber o determinar el monto adecuado para tener los resultados esperados y la publicidad no es una ciencia exacta; aunque las plataformas de publicidad de redes sociales han logrado un acercamiento a un presupuesto bien definido, puesto que de ante mano se sabe a cuántas personas se puede impactar y cuánto costará llegar a ellas; sin embargo, no se puede saber aún cuántos de esos usuarios van a responder positivamente a la campaña y solo se puede hablar de estimados. Hay varios métodos para definir un presupuesto publicitario:
       .col-lg-5.col-md-9(data-aos="fade-left")
         img.w-75.m-auto(src='@/assets/curso/temas/t2/imag02.svg' alt='')
     
@@ -313,10 +322,10 @@
         p Si la empresa tiene un recorrido importante en el mercado se puede hacer un estimado del mercado objetivo total, a partir del histórico de ventas, esto permite a la empresa saber que tan grande es el mercado y quiénes son los compradores.
       div
         h3 Utilidades brutas: 
-        p En este caso el presupuesto de ventas se plantea con base en un porcentaje sobre las ventas. Es el método más recomendado, puesto que son los clientes los que deberían pagar por la información que reciben acerca del producto.
+        p En este caso, el presupuesto de ventas se plantea con base en un porcentaje sobre las ventas. Es el método más recomendado, puesto que son los clientes los que deberían pagar por la información que reciben acerca del producto.
       div
         h3 Pronóstico
-        p Es un método incierto puesto que se destina el presupuesto sobre suposiciones o pronósticos que realiza la empresa estimando un potencial de mercado y de ventas.
+        p Es un método incierto, puesto que se destina el presupuesto sobre suposiciones o pronósticos que realiza la empresa estimando un potencial de mercado y de ventas.
       div
         h3 Histórico de campañas: 
         p Es otro método recomendado, el cual se basa en lo invertido en campañas realizadas anteriormente por la empresa, esto permite determinar si lo invertido fue lo adecuado o si debe ajustarse el presupuesto para el logro de los objetivos.

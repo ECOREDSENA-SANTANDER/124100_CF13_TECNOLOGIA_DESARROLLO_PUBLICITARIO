@@ -79,7 +79,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Cronograma de medios',
+            titulo: 'Cronogramas de medios',
             hash: 't_2_5',
           },
           {
@@ -93,7 +93,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Merchandising - Promoción en el punto de venta',
+        titulo: '<em>Merchandising</em> - Promoción en el punto de venta',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -113,7 +113,7 @@ export default {
           },
           {
             numero: '3.4',
-            titulo: 'Técnicas de merchandising',
+            titulo: 'Técnicas de <em>merchandising</em>',
             hash: 't_3_4',
           },
         ],
@@ -121,7 +121,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Merchandising y cliente',
+        titulo: '<em>Merchandising</em> y cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -139,7 +139,7 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Poster de precios',
+            titulo: 'Póster de precios',
             hash: 't_5_1',
           },
           {
@@ -149,7 +149,7 @@ export default {
           },
           {
             numero: '5.3',
-            titulo: 'Adhesivo de piso (vinilo floor graphic)',
+            titulo: 'Adhesivo de piso (<em>vinilo floor graphic</em>)',
             hash: 't_5_3',
           },
         ],

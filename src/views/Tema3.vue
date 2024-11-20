@@ -98,7 +98,7 @@
             | Estimular a los consumidores a que cambien de la marca rival a la promocionada.
           li 
             i.fas.fa-check-circle
-            | Aumentar el nivel de consumo los clientes actuales del producto.
+            | Aumentar el nivel de consumo de los clientes actuales del producto.
           li 
             i.fas.fa-check-circle
             | Trasladar los inventarios del producto al distribuidor, minorista o consumidor.
@@ -350,13 +350,16 @@
           h5 Según el público objetivo al que van dirigidas
           p Uno de los criterios más utilizados para clasificar las promociones de ventas es el sugerido por Blattberg y Neslin, atendiendo a si se trata de promociones del fabricante al distribuidor, del distribuidor al consumidor o directamente del fabricante al consumidor, conocida como estrategia #[em Push] y #[em Pull] la que ha sido seguida por autores como Kotler (2000), Tellis (2002) o Santesmases (2007), entre otros.
         .col-lg-4.col-md-10
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            span Estrategia #[em push and pull]
           img.mb-3(src='@/assets/curso/temas/t3/fig1.svg' alt='La figura presenta un diagrama circular que relaciona al fabricante con el consumidor a través de promociones al consumido; al fabricante con el distribuidor a través de la promociones del fabricante; y al distribuidor con el consumidor a través de promociones del distribuidor.')
-          p.mb-0.text-center #[b Figura 1.] Estrategia #[em push and pull]
+          figcaption Fuente. SENA
     
     .row.justify-content-center(data-aos="fade")
       .col-lg-10
         p De acuerdo con esta clasificación, en la estrategia #[em Push] las promociones al consumidor comprenden todas aquellas acciones promocionales ofrecidas por los fabricantes directamente al consumidor final, cuyo objetivo principal será el de fomentar la compra de la marca promocionada. #[em Push]
-        p Por su parte en la estrategia #[em Pull] las promociones del distribuidor son también promociones dirigidas al consumidor, pero, en este caso, diseñadas por el propio detallista, y perseguirán atraer clientes al establecimiento y aumentar las ventas y la rentabilidad del surtido en su conjunto. En muchos casos existen conflictos de interés entre las promociones al consumidor diseñadas por los fabricantes y las promovidas por los distribuidores, por lo que cada vez adquieren mayor importancia el tercer tipo de promociones, esto es, aquellas dirigidas al distribuidor por el fabricante (Trade Deals), con el objetivo de que el detallista transfiera a los consumidores parte de este incentivo. 
+        p Por su parte, en la estrategia #[em Pull] las promociones del distribuidor son también promociones dirigidas al consumidor, pero, en este caso, diseñadas por el propio detallista, y perseguirán atraer clientes al establecimiento y aumentar las ventas y la rentabilidad del surtido en su conjunto. En muchos casos existen conflictos de interés entre las promociones al consumidor diseñadas por los fabricantes y las promovidas por los distribuidores, por lo que cada vez adquieren mayor importancia el tercer tipo de promociones, esto es, aquellas dirigidas al distribuidor por el fabricante (Trade Deals), con el objetivo de que el detallista transfiera a los consumidores parte de este incentivo. 
     
 
     Separador
@@ -499,8 +502,8 @@
                 .col-md-11  
                   h1.num 2
                 .col-md-7  
-                  p #[b En cuanto al horizonte temporal:] esto es, el tiempo transcurrido desde que se realiza la compra hasta que el consumidor recibe el incentivo y se pueden diferenciar entre promociones inmediatas y promociones diferidas. 
-                  p En las promociones inmediatas el consumidor recibe el incentivo en el momento en el que realiza la compra sin que se le exija ningún esfuerzo adicional por su parte: descuentos directos, paquetes especiales con mayor cantidad de producto, muestras y regalos directos que acompañan al producto, etc. 
+                  p #[b En cuanto al horizonte temporal:] esto es, el tiempo transcurrido desde que se realiza la compra hasta que el consumidor recibe el incentivo y se puede diferenciar entre promociones inmediatas y promociones diferidas. 
+                  p En las promociones inmediatas, el consumidor recibe el incentivo en el momento en el que realiza la compra, sin que se le exija ningún esfuerzo adicional por su parte: descuentos directos, paquetes especiales con mayor cantidad de producto, muestras y regalos directos que acompañan al producto, etc. 
                   p En las promociones diferidas el incentivo promocional no es inmediato y requiere una participación por parte del consumidor, al que se le exige cierto esfuerzo, como por ejemplo: recortar y guardar los cupones o vales promocionales, enviar los comprobantes de compra para obtener descuentos o regalos, completar formularios para participar en sorteos o concursos, etc. 
                 .col-md-4
                   img(src='@/assets/curso/temas/t3/imag11.svg' alt='')
@@ -535,7 +538,7 @@
         img(src='@/assets/curso/temas/t3/icono.svg' alt='')
       .col-12  
         h4 #[em Merchandising] de presentación  
-        p Se puede definir como la manera de presentar los artículos y el punto de venta de modo que el acto de compra sea lo más agradable y sencillo posible para el cliente y los más rentable posible para el establecimiento. En definitiva, pretende hacer atractivo y dinámico el punto de venta, con el fin de guiar al consumidor e influir en su comportamiento de compra.
+        p Se puede definir como la manera de presentar los artículos y el punto de venta, de modo que el acto de compra sea lo más agradable y sencillo posible para el cliente y lo más rentable posible para el establecimiento. En definitiva, pretende hacer atractivo y dinámico el punto de venta, con el fin de guiar al consumidor e influir en su comportamiento de compra.
 
     .row
       .col-lg-6.pe-lg-5.mb-4.mb-lg-0(data-aos="fade")

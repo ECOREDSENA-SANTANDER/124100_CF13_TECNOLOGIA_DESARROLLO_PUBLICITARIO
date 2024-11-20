@@ -17,7 +17,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Z6P6oIGaZ9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Póster De Precios  
+      figcaption Video. Póster de precios  
 
 
     Separador
@@ -27,7 +27,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/_OAf7mz_UMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Hablador (Sapito)
+      figcaption Video. Hablador (sapito)
     
     
     Separador
@@ -37,7 +37,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/uygUPftZmwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Adhesivo de Piso 
+      figcaption Video. Adhesivo de piso 
 
 
 
