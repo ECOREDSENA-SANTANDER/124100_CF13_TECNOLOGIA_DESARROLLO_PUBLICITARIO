@@ -173,11 +173,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -186,7 +186,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF13_124100_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -200,24 +200,143 @@ export default {
       },
     ],
   },
-  complementario: [
+  /*complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: '',
+      referencia: '',
+      tipo: '',
+      link: 'https://www.google.com/',
     },
-  ],
+    {
+      tema: '',
+      referencia: '',
+      tipo: '',
+      descarga: '/downloads/prueba.pdf',
+    },
+  ],*/
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Bots</em>',
+      significado:
+        '<em>software</em> que genera tareas automáticas a través de internet.',
+    },
+    {
+      termino: 'Cobertura',
+      significado:
+        'Término utilizado para medir la audiencia. Puede definirse a partir del porcentaje de personas alcanzadas por el mensaje publicitario a través de un medio de comunicación o media mix a partir de un número de consumidores seleccionados. También puede expresarse en términos absolutos.',
+    },
+    {
+      termino: 'Consumidor',
+      significado:
+        'Es a quien el <em>marketing</em> dirige sus acciones, sea una persona u organización, con el fin de orientar o incitar a la compra y, para ello, se debe estudiar el proceso de toma de decisiones de quien va a adquirir el producto o servicio.',
+    },
+    {
+      termino: '<em>Cookies</em>',
+      significado:
+        'Archivo presente en cualquier sitio de internet y que almacena datos sobre las preferencias y pautas de navegación de los usuarios que acceden a páginas <em>web</em>, redes sociales, <em>blogs</em>, y cualquier sitio virtual integrado en la red.',
+    },
+    {
+      termino: '<em>Displays</em>',
+      significado:
+        '“son objetos tridimensionales que permiten captar la atención del consumidor o cliente, aplicando a objetos bidimensionales atributos tridimensionales como el volumen, peso, entre otros” (Pranapublicist, 2020).',
+    },
+    {
+      termino: '<em>E-mail marketing</em>',
+      significado:
+        'consiste en utilizar el correo electrónico para llevar a cabo acciones comerciales mediante el envío masivo de información.',
+    },
+    {
+      termino: 'Expositores',
+      significado:
+        '“exhibidor en América Latina o mueble expositor, es un mueble en el que se exhiben productos destinados a la venta o material promocional como folletos, catálogos o pequeñas revistas disponibles para el cliente” (Educalingo, 2020).',
+    },
+    {
+      termino: 'Impacto publicitario',
+      significado:
+        'influencia que ejerce un mensaje publicitario sobre el público objetivo, a partir de la suma de todas las exposiciones o contactos con el anuncio que ha tenido el grupo de consumidores al que va dirigido.',
+    },
+    {
+      termino: '<em>Merchandising</em>',
+      significado:
+        '“conjunto de técnicas que se aplican en el punto de venta para motivar el acto de compra de la manera más rentable, tanto para el fabricante como para el distribuidor, satisfaciendo al mismo tiempo las necesidades del consumidor. Está totalmente comprobada la influencia que tiene en la venta que el producto esté colocado en uno u otro espacio. Si el producto no está colocado en el lugar correcto decrece notablemente su ratio de ventas” (Marketing XXI, 2020).',
+    },
+    {
+      termino: 'Punto de venta',
+      significado:
+        '“por definición el Punto de Venta o POS (<em>Point of Sale</em>) es el punto de contacto del consumidor con las marcas o productos para su compra. Es el lugar idóneo donde las marcas pueden posicionarse, sin embargo por la relevancia que ha tomado, el PDV va más allá” (Informa BTL, 2015).',
+    },
+    {
+      termino: 'Usuario',
+      significado:
+        'persona que utiliza de forma habitual internet para sus rutinas diarias. Para las marcas determinados perfiles de usuario se pueden convertir en su público objetivo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'ACIM Colombia. (2020). Estudios ACIM',
+      link: 'http://www.acimcolombia.com/estudios-acim/',
+    },
+    {
+      referencia:
+        'Alard, J. y Monford, A. (2017). Plan de comunicación on y off en la práctica. ESIC Editorial',
+    },
+    {
+      referencia:
+        'Ávila, B. y Llamazares, F. (2018). Medición de audiencias. TOM micro. Utilidades en la elaboración de un plan de medios. ESIC Editorial.',
+    },
+    {
+      referencia:
+        'Ayestarán, R., Rangel, C. y Sebastián, A. (2012). Planificación estratégica y gestión de la publicidad. ESIC Editorial.',
+    },
+    {
+      referencia:
+        'Blattberg, R., y Neslin, S. (1989). Sales promotion: The long and the short of it. Marketing Letters. (1), 81-97.',
+    },
+    {
+      referencia: 'Educalingo. (2020). Expositor',
+      link: 'https://educalingo.com/es/dic-es/expositor',
+    },
+    {
+      referencia: 'Guridi, M. (2016). Distribución comercial. ITESM.',
+    },
+    {
+      referencia:
+        'Hervás, A. M., Campo, A. y Revilla, M. T. (2013). Animación del punto de venta. McGraw-Hill.',
+    },
+    {
+      referencia: 'Informa BTL. (2015). ¿Qué es el punto de venta?',
+      link:
+        'https://www.informabtl.com/que-es-el-punto-de-venta/#:~:text=Por%20definici%C3%B3n%20el%20Punto%20de,el%20PDV%20va%20m%C3%A1s%20all%C3%A1',
+    },
+    {
+      referencia:
+        'Kotler, P. (2000). Dirección de marketing. Pearson Educación.',
+    },
+    {
+      referencia:
+        'Marketing XXI. (2020). Merchandising y publicidad en el lugar de venta',
+      link: 'https://www.marketing-xxi.com/merchandising-y-plv-118.htm',
+    },
+    {
+      referencia: 'Muñiz. M. (2012). Promociones en punto de venta. Pirámide.',
+    },
+    {
+      referencia:
+        'Sánchez, G. R. (2017). Las estrategias del trade marketing en el punto de venta y su relación con la compra por impulso de los clientes buyer del Hipermercado Plaza Vea del Distrito de Tacna 2017',
+      link:
+        'https://repositorio.upt.edu.pe/bitstream/handle/20.500.12969/320/Sanchez-Yufra-Gerson-Rodrigo.pdf',
+    },
+    {
+      referencia:
+        'Santesmases, M. (2007). Marketing: conceptos y estrategias. Pirámide.',
+    },
+    {
+      referencia:
+        'Soria, M. (2015). Plan de medios de comunicación e internet. Editorial CEP.',
+    },
+    {
+      referencia:
+        'Tellis, G. (2002). Estrategias de publicidad y promoción. Pearson Educación.',
     },
   ],
   creditos: [
@@ -225,14 +344,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -240,9 +359,36 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Manuel Augusto Arias López',
+          cargo: 'Instructor – experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Quindío',
+        },
+        {
+          nombre: 'Andrea Velásquez Torres',
+          cargo: 'Apoyo experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Quindío',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Vilma Perilla Méndez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Correctora de estilo',
+          centro:
+            'Centro para la Industria y la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -250,19 +396,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Julián Fernando Vanegas Vega',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Johann Sebastian Teran Carvajal',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -270,14 +416,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
