@@ -2,547 +2,107 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-secundario
         .titulo-principal__numero
-          span 1
-        h1 Titulo de primer nivel
-        
-
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(titulo="Titulo item 2")
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-
+          span.color-sistema 1
+        h1 Medición de audiencias
+      
+      .row.align-items-center.justify-content-center(data-aos="fade-down")
+        .col-lg-4.col-md-5.col-10.z-999
+          img(src='@/assets/curso/temas/t1/imag01.png', alt='')
+        .col-lg-8.p-relative
+          .bg6.p-5
+            .bg1.p-4.z-999
+              .subtitulo.mb-3
+                h3.mb-2 Medición de audiencias
+              p En el desarrollo de una campaña publicitaria o una estrategia de comunicación, el factor más importante es la audiencia, por ello lo invitamos a descargar la siguiente infografía que servirá para introducir un poco más el tema.
+              .text-right
+                a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank" type="application/pdf")
+                  span Descargar
+                  i.fas.fa-file-download
 
 
       Separador
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.1  Fuentes de medición de audiencias
+      
+      .row.mb-5.justify-content-lg-end.justify-content-center
+        .col-lg-7(data-aos="fade-right")
+          ol.lista-ol--cuadro.fa-ul.color-secundario
+            li
+              .lista-ol--cuadro__vineta
+                span.fw-bold a
+              h4 Estudio General de Medios (EGM)
+          p.ps-4 El EGM es un estudio poblacional que busca una representación adecuada del universo objetivo, a través de una muestra interrogada acerca de su comportamiento en relación con el consumo de medios, entre otras cosas.
+          p.ps-4 La representación de los lectores, oyentes o espectadores es más una consecuencia que una premisa.
+          p.ps-4 El EGM es un estudio multimedia, es decir, que estudia para cada individuo su comportamiento respecto a los distintos medios. La realidad social es multimedia, como lo es también en su mayor parte la realidad publicitaria.
+        .col-lg-4.col-md-6.col-10(data-aos="fade-left")
+          img(src='@/assets/curso/temas/t1/imag02.svg', alt='')
+      
+      .row.justify-content-center.mb-5(data-aos="fade-down")
+        .col-lg-10
+          .cajon.color-secundario.bg2.p-4.mb-5
+            p.mb-0 El EGM proporciona dos grandes tipos de datos sobre la audiencia: ¿cuántos son? y ¿cómo son?, es decir, cuál es su perfil en lo referente a variables sociodemográficas, geográficas, de estilo de vida, consumo y equipamiento.     
 
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="Titulo item 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      ImagenInfografica.color-primario
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-      ImagenInfograficaB.color-primario
-        template(v-slot:imagen)
-          figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-          h5 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-          h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-
-      TarjetaAudio.color-primario.mb-3(
-        texto="Texto de muestra  "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
-        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      TarjetaAudio.color-secundario.mb-3(
-        texto="Texto de muestra <br> Texto de muestra "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      )
-
-      Separador
-
-
-      .tarjeta.tarjeta--azul.p-4
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        PasosB.color-acento-contenido
-          .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row(titulo="")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        LineaTiempoC.color-acento-contenido(text-small)
-          .row(titulo="Titulo 1")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-
-          .row(titulo="Titulo 2")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      SlyderF(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center FIRST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 2
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 3
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 4
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 5
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 6
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 7
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center LAST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-            
-      Separador
-
-      LineaTiempoD.color-primario
-        .row(numero="1" titulo="Praesent luctus")
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(numero="2" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
-
-        .row(numero="3" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-      TabsA.color-acento-botones
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-            strong user style sheets
-            |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-          h4 PASO 2: The splendor
-          .row
-            .col-xl-6.mb-4
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-xl-6
-              p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                strong user style sheets
-                |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-      TabsC.color-primario
-        .py-3.py-md-4(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          h4 Es importante tener presentes dos aspectos del EGM:
+          ul.lista-ul--color.color-secundario.fa-ul.mb-4
+            li 
+              i.fas.fa-check-circle
+              | Los datos que genera el EGM son estadísticos y probabilísticos. 
+            li 
+              i.fas.fa-check-circle
+              | La información que se otorga hace referencia al número de lectores, espectadores, oyentes o usuarios de un medio, canal o cuenta en particular. Esta información indica el número de personas potencialmente sujetas al impacto del mensaje publicitario, indicando la cantidad de personas que potencialmente pueden llegar a ser impactadas por un anuncio.
           
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-3.py-md-4(titulo="Don’t lie to yourself")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-
-      TabsB.color-primario
-        .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          .br-10.bg3.p-3
+            p.mb-0 Basado en los estudios del ACIM Colombia (2015).
+      
+      .row.justify-content-end
+        .col-lg-11(data-aos="fade-right")
+          ol.lista-ol--cuadro.fa-ul.color-secundario
+            li
+              .lista-ol--cuadro__vineta
+                span.fw-bold a
+              h4  #[em Rating]
+      .row.justify-content-center.mb-5
+        .col-lg-10(data-aos="fade-down") 
+          .bloque-texto-g.fondo-bloque.p-3.p-sm-4.p-md-5.mb-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/t1/imag03.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 El #[em rating] es el indicador que define la cantidad de personas o espectadores que tiene un programa de televisión o radio. Este determina la proyección y la posible efectividad de una campaña publicitaria o anuncio que se exponga en uno de estos medios. El #[em rating] se mide en puntos, donde cada uno equivale a cien mil personas, entonces si se habla de 5 puntos de #[em rating], eso significa que quinientas mil personas están viendo un programa de televisión o escuchando uno de radio a una hora determinada.
           
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-
-      LineaTiempoE.color-primario
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen      
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          .cajon.color-secundario.bg2.p-4.mb-5(data-aos="fade-down")
+            p.mb-0 En Colombia se generan informes del #[em rating] de forma periódica, parte de esa información es de acceso público. La empresa Ibope es quien desarrolla dicha medición desde hace casi 30 años, de la misma forma que lo hace en otros países de Latinoamérica.
+          
+          h4(data-aos="fade") Medición de #[em rating]
+          p.mb-4(data-aos="fade") En la actualidad y gracias a la tecnología y a la conectividad de la televisión, el proceso es 100% digital, a través de un dispositivo llamado <#[b #[em People meter]]> que se instala directamente en los televisores de los hogares seleccionados para realizar dicha medición. El #[em People meter] permite saber con base en la muestra, el tiempo que una persona está conectada en un canal específico y los cambios de canales que realiza durante el tiempo que permanece frente a la pantalla. Adicionalmente, este dispositivo realiza un perfilamiento de los usuarios para saber quién específicamente está viendo determinado programa. La información pasa luego a una central de información donde acopian, tabulan y analizan todos los datos. De acuerdo con el tamaño de la población, el máximo de #[em rating] que puede tener un programa en Colombia es de 40 puntos.
+      
+      .row(data-aos="fade-down")
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/tarjeta1.svg' alt='')
+            .tarjeta.bg4
+              .p-4
+                h4.text-center Medición de #[em rating] de radio
+                p.text-center Para el caso de las audiencias de radio es diferente, aunque en la actualidad se puede determinar cuántas personas están conectadas a una cadena radial vía a internet, sin embargo, aún hay muchos radioescuchas que sintonizan a través de las frecuencias AM y FM. Para estos casos se toman varios datos combinados; uno es el de las encuestas a una muestra representativa de la población y el otro se basa en la retroalimentación que hacen los oyentes por los diferentes medios: teléfono, redes sociales y correo electrónico. Para esto, cada emisora y programa de radio se encarga de realizar la medición de su audiencia, con el fin de vender pauta publicitaria.
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/tarjeta2.svg' alt='')
+            .tarjeta.bg4
+              .p-4
+                h4.text-center Medición de prensa y revistas impresas
+                p.text-center La audiencia de un medio impreso se mide utilizando dos datos básicos, el primero es el tiraje del medio, es decir, las impresiones que se hagan de un ejemplar. El segundo dato son los lectores, los cuales están determinados por ejemplar. Por ejemplo, un ejemplar de periódico comprado en una familia puede ser leído por varios miembros de ella. Por su parte, una revista por tener un tiempo de vida más prolongado, de una semana o un mes, puede ser leída por muchas personas dependiendo del lugar donde estén. Cada medio debe determinar un promedio de lectores de sus ejemplares, con el fin de determinar su audiencia total. Estas mediciones son llevadas a cabo por la Oficina de Justificación de la Difusión (OJD), para los medios que solicitan sus servicios.
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/tarjeta3.svg' alt='')
+            .tarjeta.bg4
+              .p-4
+                h4.text-center Medición prensa y revistas digitales
+                p.text-center Los medios digitales también deben combinar varios datos para determinar su audiencia total. Es importante aclarar que las revistas y periódicos digitales en su mayoría cuentan con un sitio #[em web], por lo tanto, el primer dato está relacionado con las visitas a este. Otro dato importante son los suscriptores, ya sea que el medio sea pago o gratuito, siempre debe tener un sistema de suscripción para poder medir audiencias, generar bases de datos y fidelizar a los espectadores. Finalmente, estos medios pueden hacer análisis de audiencias a través de los sistemas de analítica #[em web], sin embargo y a pesar de la precisión de estos sistemas de medición, muchos datos de #[em bots] no se pueden discriminar, ya que alteraría las estadísticas.
 
 
-      Separador
-
-      PasosA.color-primario.mb-5(tipo="n")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Lorem ipsum dolor sit amet.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la Imagen
-          .col-md-6
-            h3 Nullam vulputate mauris eros, ut.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-
-      Separador
-
-      p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      .row
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3
-          .tarjeta--boton.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-
-      Separador
-
-
-
-      .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Celebrate your<br>failures
-          p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-        .col-md.tarjeta.color-acento-botones.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-        .col-md.tarjeta.color-acento-contenido.text-white.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-
-      Separador
-
-      .row
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3.mb-4.mb-sm-0
-          .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3
-          .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-
-      Separador
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones.p-5
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
+  
   </template>
 
 <script>

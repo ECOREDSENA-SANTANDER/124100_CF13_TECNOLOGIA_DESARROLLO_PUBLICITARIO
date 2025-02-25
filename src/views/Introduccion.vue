@@ -3,18 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-secundario
       .titulo-principal__numero
-        span
+        span.color-sistema
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-4(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/3D3rJwNHvl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Plan de medios
 
+      
 </template>
 
 <script>
