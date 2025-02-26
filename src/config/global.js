@@ -273,8 +273,10 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'ACIM Colombia. (2020). Estudios ACIM',
-      link: 'http://www.acimcolombia.com/estudios-acim/',
+      referencia:
+        'Asociación Colombiana para la Investigación de Medios. (2004). Estudio general de medios - EMG-. Comisión Nacional de Televisión.',
+      link:
+        'https://revistas.udea.edu.co/index.php/ceo/article/download/1700/1349/5482',
     },
     {
       referencia:

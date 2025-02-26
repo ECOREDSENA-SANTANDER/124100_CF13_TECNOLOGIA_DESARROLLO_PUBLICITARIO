@@ -25,7 +25,7 @@
     p(data-aos="fade")  En el siguiente video, se exponen claramente los elementos básicos de un plan de medio y sus características principales: 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/19ctgJoJZzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rEE1rfLTLhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Elementos básicos de un plan de medios
 
 
@@ -101,7 +101,7 @@
             .p-4.px-lg-5.text-center 
               h5 #[em Gross Rating Points] (GRP): 
               p Corresponden a la sumatoria de los porcentajes de la audiencia útil, la fórmula es la siguiente:
-              img.w-75.m-auto.mb-4(src='@/assets/curso/temas/t2/formula.svg' alt='')
+              img.w-75.m-auto.mb-4(src='@/assets/curso/temas/t2/formula.svg' alt='Fórmula para calcular Gross Rating Points (GRP): GRP = (total impactos / mercado objetivo) * 100, con explicación de que GRP es la sumatoria de porcentajes de impactos.')
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/tarjeta3.svg' alt='')
@@ -109,7 +109,7 @@
             .p-4.px-lg-5.text-center 
               h5 Costo Por Mil (CPM): 
               p El CPM indica la inversión que requiere una campaña para impactar mil veces al mercado objetivo. Este se calcula con la siguiente fórmula:
-              img.w-75.m-auto.mb-4(src='@/assets/curso/temas/t2/formula2.svg' alt='')
+              img.w-75.m-auto.mb-4(src='@/assets/curso/temas/t2/formula2.svg' alt='Fórmula para calcular Costo Por Mil (CPM): CPM = (costo del anuncio / impactos) * 1000, con explicación de que CPM indica la inversión por mil impresiones.')
 
 
     Separador
